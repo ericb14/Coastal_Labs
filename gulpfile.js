@@ -4,7 +4,8 @@ var watch = require('gulp-watch');
 
 var paths = {
    	sass: [
-        'css/coastal.scss',
+        // 'css/coastal.scss',
+        'css/*.scss',
     ]
 };
 
@@ -17,8 +18,9 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('css/coastal.scss',['sass']);
-    gulp.watch('css/samson.scss', ['sass']);
+    // gulp.watch('css/coastal.scss',['sass']);
+    // gulp.watch('css/samson.scss', ['sass']);
+    gulp.watch('css/*.scss',['sass']);
 
 });
 

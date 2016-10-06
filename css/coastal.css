@@ -3,7 +3,15 @@ body {
   padding: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  border: none; }
+
+a:visited {
+  text-decoration: none;
+  border: none; }
+
+a:focus {
+  outline: none; }
 
 #wrapper {
   padding: 0;
@@ -19,8 +27,7 @@ span.icon-bar {
 #mainNavBar {
   background-color: rgba(0, 0, 0, 0.7);
   padding: .5em;
-  width: 100%;
-  max-height: 4em; }
+  width: 100%; }
   #mainNavBar i {
     color: white;
     margin: .3em; }
@@ -53,6 +60,9 @@ span.icon-bar {
   padding: 4em; }
   #sec_2 a {
     text-decoration: none; }
+  #sec_2 a:visited {
+    text-decoration: none;
+    border: none; }
   #sec_2 h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 3em;
@@ -134,10 +144,26 @@ span.icon-bar {
     list-style-type: disc;
     color: #FFFFFF; }
 
-#slide2 {
-  background-color: #94BC5F;
-  padding: 3em;
-  z-index: 100; }
+.modal-admin {
+  margin: auto;
+  background-color: blue;
+  width: 50%;
+  height: 15%; }
 
-.border {
-  border: solid salmon 5px; }
+#dogModal .modal-content {
+  margin-top: 5em; }
+
+#dogModal h2 {
+  font-family: "Fjalla One", sans-serif; }
+
+#dogModal img {
+  height: 100%; }
+
+.modal-body {
+  border-top: none; }
+  .modal-body p {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #808080; }
+  .modal-body h3 {
+    color: #4D7AA1;
+    font-family: "Fjalla One", sans-serif; }
