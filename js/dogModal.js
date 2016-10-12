@@ -10,7 +10,7 @@ $( document ).ready(function() {
 
         // $('#dogModal img').attr('src',"images/ezra.jpg");
         // $('#dogModal img').attr('src',$(this).attr('src'));
-        
+
 
 
         // ===============================
@@ -42,7 +42,9 @@ $( document ).ready(function() {
         var info = dogLink.data('info');
         $('.modal-body p').html(info);
 
+        // $('#modal-img').attr('src', 'images/' + dogName.toLowerCase() + '.jpg')
 
+        $('#modal-img').attr('src', 'images/' + dogName.toLowerCase() + '.jpg')
 
      });
 });
