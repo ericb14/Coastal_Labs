@@ -13,19 +13,18 @@ body{
     margin: 0;
     padding: 0;
 }
-a{
-    text-decoration: none;
-    border: none;
-}
-a:visited{
-    text-decoration: none;
-    border: none;
-}
-a:focus{
-    outline: none;
+
+a:focus {
+    outline: none !important;
 }
 
 
+h1{
+
+}
+p{
+    font-family: $para-text;
+}
 #wrapper{
     padding: 0;
     margin: 0;
@@ -57,7 +56,9 @@ span.icon-bar{
 }
 #sec_1{
     padding: 2em;
-    margin-top:4em;
+    margin-top:8em;
+    background-color: aqua;
+
 
 
 
@@ -195,6 +196,7 @@ span.icon-bar{
     #sec_4{
         padding: 2em;
         margin: 0;
+        background-color: coral;
 
 
         .grid{
@@ -219,12 +221,29 @@ span.icon-bar{
         }
     }
 
+// === samson slide start===
+    #slide{
+        h1{
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 3em;
+
+        }
+        p{
+            font-family: $para-text;
+            color: $gray;
+            font-size: 1.3em;
+            line-height: 1.3em;
+        }
+    }
+
+
+// === end of samson slide ===
+
 
 
 // ============== MODAL STYLE ==============
 .modal-admin{
     margin: auto;
-    background-color: blue;
     width: 50%;
     height: 15%;
 
@@ -237,6 +256,7 @@ span.icon-bar{
     // background-color: khaki;
     h2{
         font-family: $header;
+        color: $green;
     }
     img{
         height: 100%;
@@ -244,7 +264,7 @@ span.icon-bar{
 
 }
 .modal-body{
-    
+
 
     p{
         font-family: $para-text;

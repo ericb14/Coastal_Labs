@@ -7,9 +7,13 @@ $( document ).ready(function() {
     $('#sec_2').on('click','.dogLink',function(){
         var dogLink = $(this); // the specific dog link that was clicked
 
-        // var photo = dogLink.data('photo');
-        // $('#dogModal img').html(photo);
 
+        // $('#dogModal img').attr('src',"images/ezra.jpg");
+        // $('#dogModal img').attr('src',$(this).attr('src'));
+        
+
+
+        // ===============================
 
         var dogName = dogLink.data('dog');
         $('#dogModal h2#dogName').html(dogName);
