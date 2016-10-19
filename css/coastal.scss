@@ -109,11 +109,14 @@ span.icon-bar{
 
 
 #sec_1{
-    margin-top:8em;
     width: 100%;
-    background-color: darkgreen;
+    // background-color: darkgreen;
+
+    #mainLogo{
+        margin-top: 3.5em;
+    }
 #about{
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
     h1{
@@ -321,7 +324,10 @@ span.icon-bar{
     h3{
         color: $blue;
         font-family: $header;
-
+    }
+    h4{
+        font-family: $para-text;
+        color: $gray;
     }
 }
 

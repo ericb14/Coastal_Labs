@@ -67,11 +67,11 @@ span.icon-bar {
     display: none; }
 
 #sec_1 {
-  margin-top: 8em;
-  width: 100%;
-  background-color: darkgreen; }
+  width: 100%; }
+  #sec_1 #mainLogo {
+    margin-top: 3.5em; }
   #sec_1 #about {
-    margin-top: 1em; }
+    margin-top: 3em; }
   #sec_1 h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 3em;
@@ -204,3 +204,6 @@ span.icon-bar {
   .modal-body h3 {
     color: #4D7AA1;
     font-family: "Fjalla One", sans-serif; }
+  .modal-body h4 {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #808080; }
