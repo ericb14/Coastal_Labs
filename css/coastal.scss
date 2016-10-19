@@ -9,6 +9,16 @@ $para-text:'Open Sans Condensed', sans-serif;
 
     // === === ===
 
+    #wrapper{
+        border:solid red 4px;
+        background-color: yellow;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+    }
+
+
 body{
     margin: 0;
     padding: 0;
@@ -51,16 +61,60 @@ span.icon-bar{
         margin-left: 2em;
     }
 }
-.icon-bar{
-    color: green;
+
+ // === animation style start ===
+
+ #mainLeft{
+ 	position: absolute;
+ 	margin-left: -50%;
+ 	background-color: $blue;
+ 	width: 100%;
+ 	height: 100vmin;
+
+    z-index: 100;
 }
+
+ #mainRight{
+ 	position: absolute;
+ 	background-color:$blue;
+ 	margin-left:50%;
+ 	width: 100%;
+ 	height: 100vh;
+
+ 	z-index: 100;
+}
+
+ // === animation style end ===
+
+#landing_page .row{
+    height: 100vh;
+    background-color: $blue;
+    padding: 0;
+    overflow-x: hidden;
+
+
+    img{
+        width: 70%;
+        margin-top: 15%;
+        display: none;
+
+    }
+    h1{
+        font-family: $header;
+        color: white;
+        display: none;
+    }
+}
+
+
+
 #sec_1{
-    padding: 2em;
     margin-top:8em;
-    background-color: aqua;
-
-
-
+    width: 100%;
+    background-color: darkgreen;
+#about{
+    margin-top: 1em;
+}
 
     h1{
         font-family: 'Fjalla One', sans-serif;
@@ -196,7 +250,7 @@ span.icon-bar{
     #sec_4{
         padding: 2em;
         margin: 0;
-        background-color: coral;
+        background-color:$gray;
 
 
         .grid{
@@ -221,25 +275,13 @@ span.icon-bar{
         }
     }
 
-// === samson slide start===
-    #slide{
-        h1{
-            font-family: 'Fjalla One', sans-serif;
-            font-size: 3em;
 
-        }
-        p{
-            font-family: $para-text;
-            color: $gray;
-            font-size: 1.3em;
-            line-height: 1.3em;
-        }
+.footer{
+    background-color: $gray;
+    p{
+        color: white;
     }
-
-
-// === end of samson slide ===
-
-
+}
 
 // ============== MODAL STYLE ==============
 .modal-admin{

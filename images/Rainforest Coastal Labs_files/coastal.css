@@ -1,8 +1,6 @@
-#wrapper {
-  border: solid red 4px;
-  background-color: yellow;
-  padding: 0 !important;
-  margin: 0 !important; }
+* {
+  margin: 0;
+  padding: 0; }
 
 body {
   margin: 0;
@@ -56,9 +54,10 @@ span.icon-bar {
   height: 100vh;
   background-color: #4D7AA1;
   padding: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: hidden; }
   #landing_page .row img {
-    width: 70%;
+    width: 50%;
     margin-top: 15%;
     display: none; }
   #landing_page .row h1 {
@@ -67,11 +66,9 @@ span.icon-bar {
     display: none; }
 
 #sec_1 {
-  margin-top: 8em;
-  width: 100%;
-  background-color: darkgreen; }
-  #sec_1 #about {
-    margin-top: 1em; }
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 8em; }
   #sec_1 h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 3em;
@@ -175,11 +172,6 @@ span.icon-bar {
     font-size: 1.1em;
     list-style-type: disc;
     color: #FFFFFF; }
-
-.footer {
-  background-color: #808080; }
-  .footer p {
-    color: white; }
 
 .modal-admin {
   margin: auto;
