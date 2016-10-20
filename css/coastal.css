@@ -64,7 +64,8 @@ span.icon-bar {
   #landing_page .row h1 {
     font-family: "Fjalla One", sans-serif;
     color: white;
-    display: none; }
+    display: none;
+    font-size: 4.3em; }
 
 #sec_1 {
   width: 100%; }
@@ -106,6 +107,15 @@ span.icon-bar {
     font-family: "Open Sans Condensed", sans-serif;
     color: #808080;
     font-size: 1.2em; }
+
+#sec_2A h2 {
+  font-family: "Fjalla One", sans-serif;
+  color: #94BC5F; }
+
+#sec_2A p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #808080;
+  font-size: 1.2em; }
 
 #sec_3 {
   padding: 0;
