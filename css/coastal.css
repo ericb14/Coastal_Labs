@@ -1,3 +1,6 @@
+div.container-fluid {
+  padding: 0; }
+
 #wrapper {
   border: solid red 4px;
   background-color: yellow;
@@ -108,14 +111,15 @@ span.icon-bar {
     color: #808080;
     font-size: 1.2em; }
 
-#sec_2A h2 {
-  font-family: "Fjalla One", sans-serif;
-  color: #94BC5F; }
-
-#sec_2A p {
-  font-family: "Open Sans Condensed", sans-serif;
-  color: #808080;
-  font-size: 1.2em; }
+#sec_2A {
+  padding: 4em; }
+  #sec_2A h2 {
+    font-family: "Fjalla One", sans-serif;
+    color: #94BC5F; }
+  #sec_2A p {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #808080;
+    font-size: 1.2em; }
 
 #sec_3 {
   padding: 0;

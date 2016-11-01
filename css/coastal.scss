@@ -8,7 +8,9 @@ $header:'Fjalla One', sans-serif;
 $para-text:'Open Sans Condensed', sans-serif;
 
     // === === ===
-
+div.container-fluid{
+    padding: 0;
+}
     #wrapper{
         border:solid red 4px;
         background-color: yellow;
@@ -178,6 +180,8 @@ span.icon-bar{
 
 // === section 2A style start ===
 #sec_2A{
+    padding: 4em;
+    // background-color: coral;
     h2{
         font-family: $header;
         color: $green;
