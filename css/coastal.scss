@@ -181,7 +181,15 @@ span.icon-bar{
 // === section 2A style start ===
 #sec_2A{
     padding: 4em;
+    a{
+        text-decoration: none;
+    }
     // background-color: coral;
+    h1{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 3em;
+        color: $blue;
+    }
     h2{
         font-family: $header;
         color: $green;
@@ -305,8 +313,16 @@ span.icon-bar{
     }
 // === section 4 style end ===
 
-// === section 5 style start ===
+// === section 5 style start GALLERY ===
 #sec_5{
+    h1{
+        font-family: $header;
+        color: $blue;
+    }
+    margin-left: 3em;
+    margin-right: 3em;
+
+
 .container-fluid{
     padding-right:3%;
     height: 40%;

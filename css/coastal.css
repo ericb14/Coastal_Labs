@@ -113,6 +113,12 @@ span.icon-bar {
 
 #sec_2A {
   padding: 4em; }
+  #sec_2A a {
+    text-decoration: none; }
+  #sec_2A h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3em;
+    color: #4D7AA1; }
   #sec_2A h2 {
     font-family: "Fjalla One", sans-serif;
     color: #94BC5F; }
@@ -190,12 +196,17 @@ span.icon-bar {
     list-style-type: disc;
     color: #FFFFFF; }
 
-#sec_5 .container-fluid {
-  padding-right: 3%;
-  height: 40%; }
-
-#sec_5 img {
-  margin: .5em; }
+#sec_5 {
+  margin-left: 3em;
+  margin-right: 3em; }
+  #sec_5 h1 {
+    font-family: "Fjalla One", sans-serif;
+    color: #4D7AA1; }
+  #sec_5 .container-fluid {
+    padding-right: 3%;
+    height: 40%; }
+  #sec_5 img {
+    margin: .5em; }
 
 .footer {
   background-color: #808080; }
