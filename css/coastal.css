@@ -190,6 +190,13 @@ span.icon-bar {
     list-style-type: disc;
     color: #FFFFFF; }
 
+#sec_5 .container-fluid {
+  padding-right: 3%;
+  height: 40%; }
+
+#sec_5 img {
+  margin: .5em; }
+
 .footer {
   background-color: #808080; }
   .footer p {

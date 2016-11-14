@@ -274,6 +274,8 @@ span.icon-bar{
     }
 // === section 3 style end ===
 
+// === section 4 style start ===
+
     #sec_4{
         padding: 2em;
         margin: 0;
@@ -301,7 +303,23 @@ span.icon-bar{
             color: $white;
         }
     }
+// === section 4 style end ===
 
+// === section 5 style start ===
+#sec_5{
+.container-fluid{
+    padding-right:3%;
+    height: 40%;
+}
+.img-circle{
+
+}
+img{
+    margin: .5em;
+
+    }
+}
+// === section 5 style end ===
 
 .footer{
     background-color: $gray;
