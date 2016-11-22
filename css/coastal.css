@@ -102,7 +102,7 @@ span.icon-bar {
     font-family: 'Fjalla One', sans-serif;
     font-size: 3em;
     color: #4D7AA1;
-    margin-left: 0; }
+    margin-left: .7em; }
   #sec_2 h2 {
     font-family: 'Fjalla One', sans-serif;
     color: #94BC5F; }
@@ -118,7 +118,8 @@ span.icon-bar {
   #sec_2A h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 3em;
-    color: #4D7AA1; }
+    color: #4D7AA1;
+    margin-left: .7em; }
   #sec_2A h2 {
     font-family: "Fjalla One", sans-serif;
     color: #94BC5F; }
@@ -146,8 +147,6 @@ span.icon-bar {
       color: #FFFFFF;
       font-family: "Open Sans Condensed", sans-serif;
       font-size: 1.5em; }
-    #sec_3 #main img {
-      border: solid white 10px; }
     #sec_3 #main h2 {
       color: #94BC5F; }
     #sec_3 #main h4 {
@@ -159,6 +158,12 @@ span.icon-bar {
       font-size: 1em; }
   #sec_3 #product {
     margin-top: 3em; }
+    #sec_3 #product button {
+      border-radius: 1em;
+      background-color: transparent;
+      border: 1px solid #4D7AA1; }
+    #sec_3 #product h1 {
+      margin-left: .7em; }
     #sec_3 #product img {
       margin-left: 0px;
       margin-right: 0px; }
@@ -189,7 +194,8 @@ span.icon-bar {
     color: #FFFFFF; }
   #sec_4 h1 {
     font-family: "Fjalla One", sans-serif;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-left: .7em; }
   #sec_4 ul {
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 1.1em;
@@ -201,7 +207,8 @@ span.icon-bar {
   margin-right: 3em; }
   #sec_5 h1 {
     font-family: "Fjalla One", sans-serif;
-    color: #4D7AA1; }
+    color: #4D7AA1;
+    margin-left: .7em; }
   #sec_5 .container-fluid {
     padding-right: 3%;
     height: 40%; }

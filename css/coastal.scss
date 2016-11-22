@@ -47,6 +47,7 @@ span.icon-bar{
 }
 #nav_wrapper{
     padding: 0;
+
 }
 #mainNavBar{
     background-color:rgba(0, 0, 0, 0.7);
@@ -162,7 +163,7 @@ span.icon-bar{
         font-family: 'Fjalla One', sans-serif;
         font-size: 3em;
         color: $blue;
-        margin-left: 0;
+        margin-left: .7em;
 
     }
     h2{
@@ -189,6 +190,7 @@ span.icon-bar{
         font-family: 'Fjalla One', sans-serif;
         font-size: 3em;
         color: $blue;
+        margin-left: .7em;
     }
     h2{
         font-family: $header;
@@ -232,7 +234,7 @@ span.icon-bar{
             font-size: 1.5em;
         }
         img{
-            border: solid white 10px;
+            // border: solid white 10px;
         }
 
         h2{
@@ -252,6 +254,14 @@ span.icon-bar{
 
     #product{
         margin-top: 3em;
+        button{
+            border-radius: 1em;
+            background-color: transparent;
+            border: 1px solid $blue;
+        }
+        h1{
+            margin-left: .7em;
+        }
 
         img{
             margin-left: 0px;
@@ -302,6 +312,7 @@ span.icon-bar{
         h1{
             font-family: $header;
             color: $white;
+            margin-left: .7em;
         }
 
         ul{
@@ -318,6 +329,7 @@ span.icon-bar{
     h1{
         font-family: $header;
         color: $blue;
+        margin-left: .7em;
     }
     margin-left: 3em;
     margin-right: 3em;
