@@ -10,6 +10,7 @@ $para-text:'Open Sans Condensed', sans-serif;
     // === === ===
 div.container-fluid{
     padding: 0;
+    overflow: hidden;
 }
     #wrapper{
         border:solid red 4px;
@@ -93,14 +94,13 @@ span.icon-bar{
     height: 100vh;
     background-color: $blue;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 
 
     img{
-        width: 70%;
-        margin-top: 15%;
-        display: none;
-
+        margin-top: 70%;
+        margin: auto;
+        width: 50%;
     }
     h1{
         font-family: $header;
