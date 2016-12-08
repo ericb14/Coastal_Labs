@@ -257,9 +257,8 @@ span.icon-bar{
         button{
             border-radius: 1em;
             background-color: transparent;
+            margin-top:.5em;
             border: 1px solid $blue;
-            margin: .5em;
-            margin: auto;
         }
         h1{
             margin-left: .7em;
@@ -273,6 +272,7 @@ span.icon-bar{
             font-family: 'Fjalla One', sans-serif;
             color: $gray;
         }
+
 
         }
         #information{

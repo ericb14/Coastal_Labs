@@ -162,9 +162,8 @@ span.icon-bar {
     #sec_3 #product button {
       border-radius: 1em;
       background-color: transparent;
-      border: 1px solid #4D7AA1;
-      margin: .5em;
-      margin: auto; }
+      margin-top: .5em;
+      border: 1px solid #4D7AA1; }
     #sec_3 #product h1 {
       margin-left: .7em; }
     #sec_3 #product img {
