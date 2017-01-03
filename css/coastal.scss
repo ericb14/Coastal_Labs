@@ -1,28 +1,25 @@
-    // === variables ===
+// === variables ===
 $white: #FFFFFF;
 $green: #94BC5F;
 $blue: #4D7AA1;
-$gray:#808080;
-$h1-size:3em;
-$header:'Fjalla One', sans-serif;
-$para-text:'Open Sans Condensed', sans-serif;
+$gray: #808080;
+$h1-size: 3em;
+$header: 'Fjalla One', sans-serif;
+$para-text: 'Open Sans Condensed', sans-serif; // === === ===
 
-    // === === ===
-div.container-fluid{
+div.container-fluid {
     padding: 0;
     overflow: hidden;
 }
-    #wrapper{
-        border:solid red 4px;
-        background-color: yellow;
 
-        padding: 0 !important;
-        margin: 0 !important;
+#wrapper {
+    border: solid red 4px;
+    background-color: yellow;
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
-    }
-
-
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -31,377 +28,389 @@ a:focus {
     outline: none !important;
 }
 
+h1 {}
 
-h1{
-
-}
-p{
+p {
     font-family: $para-text;
 }
-#wrapper{
+
+#wrapper {
     padding: 0;
     margin: 0;
     font-family: $para-text;
 }
-span.icon-bar{
-    background-color:$blue;
-}
-#nav_wrapper{
-    padding: 0;
 
+span.icon-bar {
+    background-color: $blue;
 }
-#mainNavBar{
-    background-color:rgba(0, 0, 0, 0.7);
-    padding: .5em;
+
+#nav_wrapper {
+    padding: 0;
+}
+
+#mainNavBar {
+    background-color: rgba(0, 0, 0, 0.7);
+    // padding: 0.5em;
     width: 100%;
     // max-height: 4em;
-    i{
+    i {
         color: white;
-        margin: .3em;
+        margin: 0.3em;
     }
 }
-.navbar-brand{
-    img{
+
+.navbar-brand {
+    img {
         margin-left: 2em;
     }
 }
+// === animation style start ===
 
- // === animation style start ===
-
- #mainLeft{
- 	position: absolute;
- 	margin-left: -50%;
- 	background-color: $blue;
- 	width: 100%;
- 	height: 100vmin;
-
+#mainLeft {
+    position: absolute;
+    margin-left: -50%;
+    background-color: $blue;
+    width: 100%;
+    height: 100vmin;
     z-index: 100;
 }
 
- #mainRight{
- 	position: absolute;
- 	background-color:$blue;
- 	margin-left:50%;
- 	width: 100%;
- 	height: 100vh;
-
- 	z-index: 100;
-}
-
- // === animation style end ===
-
-#landing_page .row{
+#mainRight {
+    position: absolute;
+    // background-color: $blue;
+    background-color: coral;
+    margin-left: 50%;
+    width: 100%;
     height: 100vh;
-    background-color: $blue;
-    padding: 0;
-    overflow: hidden;
+    z-index: 100;
+}
+// === animation style end ===
 
+#landing_page.row {
+    img {}
 
-    img{
-        margin-top: 70%;
-        margin: auto;
-        width: 50%;
-    }
-    h1{
+    h1 {
         font-family: $header;
         color: white;
-        display: none;
         font-size: 4.3em;
+        z-index: 10;
     }
 }
 
+#lp_row {
+    margin: 0;
+}
 
+#landing_page2 {
+    background-image: url('../images/dark_lab.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 
-#sec_1{
+    h1 {
+        color: white;
+        margin-top: 40%;
+        margin-left: 5%;
+        font-family: $header;
+        font-size: 5em;
+    }
+}
+// === end of landing page ===
+
+#sec_1 {
     width: 100%;
     // background-color: darkgreen;
-
-    #mainLogo{
+    #mainLogo {
         margin-top: 3.5em;
     }
-#about{
-    margin-top: 3em;
-}
 
-    h1{
+    #about {
+        margin-top: 3em;
+    }
+
+    h1 {
         font-family: 'Fjalla One', sans-serif;
         font-size: 3em;
         color: $blue;
-        margin: 0;
-        margin-bottom: .3em;
+        margin: 0 0 0.3em;
     }
-    h2{
-        font-family: 'Fjalla One', sans-serif;
-        color: $white   ;
-    }
-    img{
 
+    h2 {
+        font-family: 'Fjalla One', sans-serif;
+        color: $white;
     }
-    p{
+
+    img {
+        padding: 4em;
+    }
+
+    p {
         font-family: $para-text;
         color: $gray;
         font-size: 1.3em;
         line-height: 1.3em;
     }
-
 }
-
 // === section 2 style start ===
-#sec_2{
+
+#sec_2 {
     padding: 4em;
 
-    a{
+    a {
         text-decoration: none;
     }
-    a:visited{
+
+    a:visited {
         text-decoration: none;
         border: none;
     }
 
-
-    h1{
+    h1 {
         font-family: 'Fjalla One', sans-serif;
         font-size: 3em;
         color: $blue;
-        margin-left: .7em;
-
+        margin-left: 0.7em;
     }
-    h2{
+
+    h2 {
         font-family: 'Fjalla One', sans-serif;
         color: $green;
     }
-    p{
+
+    p {
         font-family: $para-text;
         color: $gray;
         font-size: 1.2em;
     }
-
 }
 // === section 2 style end ===
-
 // === section 2A style start ===
-#sec_2A{
+
+#sec_2A {
     padding: 4em;
-    a{
+
+    a {
         text-decoration: none;
     }
     // background-color: coral;
-    h1{
+    h1 {
         font-family: 'Fjalla One', sans-serif;
         font-size: 3em;
         color: $blue;
-        margin-left: .7em;
+        margin-left: 0.7em;
     }
-    h2{
+
+    h2 {
         font-family: $header;
         color: $green;
     }
-    p{
+
+    p {
         font-family: $para-text;
         color: $gray;
         font-size: 1.2em;
     }
 }
-
 // === section 2A style end ===
-
 // === section 3 style start ===
-#sec_3{
-    padding: 0;
-    padding-bottom: 3em;
 
-    h1{
+#sec_3 {
+    padding: 0 0 3em;
+
+    h1 {
         font-family: 'Fjalla One', sans-serif;
         font-size: 3em;
-        margin-left: .7em;
+        margin-left: 0.7em;
         color: $white;
-
     }
-    h2{
+
+    h2 {
         font-family: 'Fjalla One', sans-serif;
     }
 
-    #main{
-        background-color:$blue;
+    #main {
+        background-color: $blue;
         padding: 2em;
         margin-left: 0;
         margin-right: 0;
 
-
-        p{
+        p {
             color: $white;
             font-family: $para-text;
             font-size: 1.5em;
         }
-        img{
+
+        img {
             // border: solid white 10px;
         }
 
-        h2{
+        h2 {
             color: $green;
         }
-        h4{
+
+        h4 {
             color: $green;
             font-family: $header;
         }
-        ol{
-            color:$white;
+
+        ol {
+            color: $white;
             font-family: $para-text;
             font-size: 1em;
         }
-
     }
 
-    #product{
+    #product {
         margin-top: 3em;
-        button{
+
+        button {
             border-radius: 1em;
             background-color: transparent;
-            margin-top:.5em;
+            margin-top: 0.5em;
             border: 1px solid $blue;
-            
-        }
-        h1{
-            margin-left: .7em;
         }
 
-        img{
-            margin-left: 0px;
-            margin-right: 0px;
+        h1 {
+            margin-left: 0.7em;
         }
-        h4{
+
+        img {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        h4 {
             font-family: 'Fjalla One', sans-serif;
             color: $gray;
         }
-
-
-        }
-        #information{
-            h2{
-                color: $blue;
-
-            }
-            h4{
-                font-family:'Open Sans Condensed', sans-serif;
-                color: $gray;
-            }
-            p{
-                font-family: $para-text;
-                color: $gray;
-                font-size: 1.5em;
-                line-height: 1.3em;
-            }
-        }
     }
-// === section 3 style end ===
 
-// === section 4 style start ===
-
-    #sec_4{
-        padding: 2em;
-        margin: 0;
-        background-color:$gray;
-
-
-        .grid{
-            padding: 0;
+    #information {
+        h2 {
+            color: $blue;
         }
-        p{
-            font-family:$para-text;
+
+        h4 {
+            font-family: 'Open Sans Condensed', sans-serif;
+            color: $gray;
+        }
+
+        p {
+            font-family: $para-text;
+            color: $gray;
             font-size: 1.5em;
             line-height: 1.3em;
-            color: $white;
-        }
-        h1{
-            font-family: $header;
-            color: $white;
-            margin-left: .7em;
-        }
-
-        ul{
-            font-family: $para-text;
-            font-size: 1.1em;
-            list-style-type:disc;
-            color: $white;
         }
     }
-// === section 4 style end ===
+}
+// === section 3 style end ===
+// === section 4 style start ===
 
+#sec_4 {
+    padding: 2em;
+    margin: 0;
+    background-color: $gray;
+
+    .grid {
+        padding: 0;
+    }
+
+    p {
+        font-family: $para-text;
+        font-size: 1.5em;
+        line-height: 1.3em;
+        color: $white;
+    }
+
+    h1 {
+        font-family: $header;
+        color: $white;
+        margin-left: 0.7em;
+    }
+
+    ul {
+        font-family: $para-text;
+        font-size: 1.1em;
+        list-style-type: disc;
+        color: $white;
+    }
+}
+// === section 4 style end ===
 // === section 5 style start GALLERY ===
-#sec_5{
-    h1{
+
+#sec_5 {
+    h1 {
         font-family: $header;
         color: $blue;
-        margin-left: .7em;
+        margin-left: 0.7em;
     }
     margin-left: 3em;
     margin-right: 3em;
 
+    .container-fluid {
+        padding-right: 3%;
+        height: 40%;
+    }
 
-.container-fluid{
-    padding-right:3%;
-    height: 40%;
-}
-.img-circle{
+    .img-circle {}
 
-}
-img{
-    margin: .5em;
-
+    img {
+        margin: 0.5em;
     }
 }
 // === section 5 style end ===
 
-.footer{
+.footer {
     background-color: $gray;
-    p{
+
+    p {
         color: white;
     }
 }
-
 // ============== MODAL STYLE ==============
-.modal-admin{
+
+.modal-admin {
     margin: auto;
     width: 50%;
     height: 15%;
-
 }
 
-#dogModal{
-.modal-content{
-    margin-top: 5em;
-}
+#dogModal {
+    .modal-content {
+        margin-top: 5em;
+    }
     // background-color: khaki;
-    h2{
+    h2 {
         font-family: $header;
         color: $green;
     }
-    img{
+
+    img {
         height: 100%;
     }
-
 }
-.modal-body{
 
-
-    p{
+.modal-body {
+    p {
         font-family: $para-text;
         color: $gray;
     }
     border-top: none;
 
-    #row_1{
+    #row_1 {
         // background-color: coral;
     }
 
-    h3{
+    h3 {
         color: $blue;
         font-family: $header;
     }
-    h4{
+
+    h4 {
         font-family: $para-text;
         color: $gray;
     }
 }
-
 // ============== END OF MODAL STYLE ==============
