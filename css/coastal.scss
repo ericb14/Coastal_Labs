@@ -110,7 +110,7 @@ span.icon-bar {
     padding: 0;
 
     h1 {
-        color: white;
+        color: $blue;
         margin-top: 40%;
         margin-left: 5%;
         font-family: $header;
@@ -154,6 +154,18 @@ span.icon-bar {
     }
 }
 // === section 2 style start ===
+
+// === PRODUCT LIGHTBOX START ===
+
+#product_lightbox{
+    // background-color: coral;
+    height: 60%;
+    // width: 90%;
+    overflow: hidden;
+
+}
+
+// === PRODUCT LIGHTBOX END ===
 
 #sec_2 {
     padding: 4em;

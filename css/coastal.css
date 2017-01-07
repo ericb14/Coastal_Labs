@@ -72,7 +72,7 @@ span.icon-bar {
   margin: 0;
   padding: 0; }
   #landing_page2 h1 {
-    color: white;
+    color: #4D7AA1;
     margin-top: 40%;
     margin-left: 5%;
     font-family: "Fjalla One", sans-serif;
@@ -99,6 +99,10 @@ span.icon-bar {
     color: #808080;
     font-size: 1.3em;
     line-height: 1.3em; }
+
+#product_lightbox {
+  height: 60%;
+  overflow: hidden; }
 
 #sec_2 {
   padding: 4em; }
