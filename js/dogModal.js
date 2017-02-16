@@ -1,10 +1,10 @@
-$( document ).ready(function() {
+$(document).ready(function() {
     /*$('#dogModal').on('show.bs.modal',function(e){
         console.log('works');
 
     });*/
 
-    $('#sec_2').on('click','.dogLink',function(){
+    $('#sec_2,#sec_2A').on('click', '.dogLink', function() {
         var dogLink = $(this); // the specific dog link that was clicked
 
 
@@ -46,5 +46,5 @@ $( document ).ready(function() {
 
         $('#modal-img').attr('src', 'images/' + dogName.toLowerCase() + '.jpg')
 
-     });
+    });
 });

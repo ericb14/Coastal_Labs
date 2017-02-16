@@ -80,6 +80,8 @@ span.icon-bar {
 
 #sec_1 {
   width: 100%; }
+  #sec_1 #dogbath {
+    background-color: yellow; }
   #sec_1 #mainLogo {
     margin-top: 3.5em; }
   #sec_1 #about {
@@ -101,8 +103,13 @@ span.icon-bar {
     line-height: 1.3em; }
 
 #product_lightbox {
-  height: 60%;
   overflow: hidden; }
+
+.slick-slide {
+  height: 50%;
+  overflow: hidden;
+  margin-top: 2em;
+  margin-bottom: -12em; }
 
 #sec_2 {
   padding: 4em; }
