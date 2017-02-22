@@ -169,9 +169,11 @@ span.icon-bar {
 }
 #product_lightbox{
 
-    // height: 60%;
-    // // width: 90%;
+    height: 65%;
     overflow: hidden;
+    bottom: 75%;
+    left: 10%;
+    // background-color: green;
 
 }
 .slick-slide{
@@ -180,6 +182,7 @@ span.icon-bar {
     overflow: hidden;
     margin-top: 2em;
     margin-bottom: -12em;
+    // border: solid red 5px;
 }
 
 // === PRODUCT LIGHTBOX END ===
@@ -401,10 +404,10 @@ span.icon-bar {
 // === section 5 style end ===
 
 .footer {
-    background-color: $gray;
+    // background-color: $gray;
 
     p {
-        color: white;
+        color: $blue;
     }
 }
 // ============== MODAL STYLE ==============

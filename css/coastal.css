@@ -103,7 +103,10 @@ span.icon-bar {
     line-height: 1.3em; }
 
 #product_lightbox {
-  overflow: hidden; }
+  height: 65%;
+  overflow: hidden;
+  bottom: 75%;
+  left: 10%; }
 
 .slick-slide {
   height: 50%;
@@ -235,10 +238,8 @@ span.icon-bar {
   #sec_5 img {
     margin: 0.5em; }
 
-.footer {
-  background-color: #808080; }
-  .footer p {
-    color: white; }
+.footer p {
+  color: #4D7AA1; }
 
 .modal-admin {
   margin: auto;
