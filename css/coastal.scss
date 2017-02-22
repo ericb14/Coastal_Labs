@@ -119,9 +119,15 @@ span.icon-bar {
 }
 // === end of landing page ===
 
+
+
 #sec_1 {
+
+    #dogbath{
+        background-color: yellow;
+    }
     width: 100%;
-    // background-color: darkgreen;
+
     #mainLogo {
         margin-top: 3.5em;
     }
@@ -144,6 +150,7 @@ span.icon-bar {
 
     img {
         padding: 4em;
+
     }
 
     p {
@@ -156,18 +163,34 @@ span.icon-bar {
 // === section 2 style start ===
 
 // === PRODUCT LIGHTBOX START ===
+#lightbox_container{
 
+
+}
 #product_lightbox{
-    // background-color: coral;
-    height: 60%;
-    // width: 90%;
-    overflow: hidden;
 
+    height: 65%;
+    overflow: hidden;
+    bottom: 75%;
+    left: 10%;
+    // background-color: green;
+
+}
+.slick-slide{
+    // background-color: pink;
+    height: 50%;
+    overflow: hidden;
+    margin-top: 2em;
+    margin-bottom: -12em;
+    // border: solid red 5px;
 }
 
 // === PRODUCT LIGHTBOX END ===
 
+
+// === SIRES START ===
 #sec_2 {
+
     padding: 4em;
 
     a {
@@ -196,9 +219,13 @@ span.icon-bar {
         color: $gray;
         font-size: 1.2em;
     }
+
+    img{
+
+    }
 }
-// === section 2 style end ===
-// === section 2A style start ===
+// === SIRES end ===
+// === DAMS start ===
 
 #sec_2A {
     padding: 4em;
@@ -225,8 +252,8 @@ span.icon-bar {
         font-size: 1.2em;
     }
 }
-// === section 2A style end ===
-// === section 3 style start ===
+// === DAMS end ===
+// === section 3 style start PRODUCTS ===
 
 #sec_3 {
     padding: 0 0 3em;
@@ -275,7 +302,9 @@ span.icon-bar {
     }
 
     #product {
+
         margin-top: 3em;
+
 
         button {
             border-radius: 1em;
@@ -375,10 +404,10 @@ span.icon-bar {
 // === section 5 style end ===
 
 .footer {
-    background-color: $gray;
+    // background-color: $gray;
 
     p {
-        color: white;
+        color: $blue;
     }
 }
 // ============== MODAL STYLE ==============
