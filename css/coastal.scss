@@ -326,6 +326,11 @@ span.icon-bar {
             font-family: 'Fjalla One', sans-serif;
             color: $gray;
         }
+        h5{
+            font-family: $para-text;
+            color: $blue;
+            font-size: 1.5em;
+        }
     }
 
     #information {

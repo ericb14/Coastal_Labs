@@ -193,6 +193,10 @@ span.icon-bar {
     #sec_3 #product h4 {
       font-family: 'Fjalla One', sans-serif;
       color: #808080; }
+    #sec_3 #product h5 {
+      font-family: "Open Sans Condensed", sans-serif;
+      color: #4D7AA1;
+      font-size: 1.5em; }
   #sec_3 #information h2 {
     color: #4D7AA1; }
   #sec_3 #information h4 {
