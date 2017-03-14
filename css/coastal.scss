@@ -8,21 +8,27 @@ $header: 'Fjalla One', sans-serif;
 $para-text: 'Open Sans Condensed', sans-serif; // === === ===
 
 div.container-fluid {
-    padding: 0;
+    padding : 0;
     overflow: hidden;
 }
 
 #wrapper {
-    border: solid red 4px;
+    border          : solid red 4px;
     background-color: yellow;
-    padding: 0 !important;
-    margin: 0 !important;
+    padding         : 0 !important;
+    margin          : 0 !important;
 }
 
-body {
-    margin: 0;
+body,
+html {
+    height : 100%;
+    margin : 0;
     padding: 0;
 }
+// body {
+//     margin: 0;
+//     padding: 0;
+// }
 
 a:focus {
     outline: none !important;
@@ -35,8 +41,8 @@ p {
 }
 
 #wrapper {
-    padding: 0;
-    margin: 0;
+    padding    : 0;
+    margin     : 0;
     font-family: $para-text;
 }
 
@@ -51,10 +57,10 @@ span.icon-bar {
 #mainNavBar {
     background-color: rgba(0, 0, 0, 0.7);
     // padding: 0.5em;
-    width: 100%;
+    width           : 100%;
     // max-height: 4em;
     i {
-        color: white;
+        color : white;
         margin: 0.3em;
     }
 }
@@ -67,22 +73,22 @@ span.icon-bar {
 // === animation style start ===
 
 #mainLeft {
-    position: absolute;
-    margin-left: -50%;
+    position        : absolute;
+    margin-left     : -50%;
     background-color: $blue;
-    width: 100%;
-    height: 100vmin;
-    z-index: 100;
+    width           : 100%;
+    height          : 100vmin;
+    z-index         : 100;
 }
 
 #mainRight {
-    position: absolute;
+    position        : absolute;
     // background-color: $blue;
     background-color: coral;
-    margin-left: 50%;
-    width: 100%;
-    height: 100vh;
-    z-index: 100;
+    margin-left     : 50%;
+    width           : 100%;
+    height          : 100vh;
+    z-index         : 100;
 }
 // === animation style end ===
 
@@ -91,9 +97,9 @@ span.icon-bar {
 
     h1 {
         font-family: $header;
-        color: white;
-        font-size: 4.3em;
-        z-index: 10;
+        color      : white;
+        font-size  : 4.3em;
+        z-index    : 10;
     }
 }
 
@@ -103,27 +109,24 @@ span.icon-bar {
 
 #landing_page2 {
     background-image: url('../images/dark_lab.jpg');
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+    background-size : cover;
+    height          : 100vh;
+    width           : 100vw;
+    margin          : 0;
+    padding         : 0;
 
     h1 {
-        color: $blue;
-        margin-top: 40%;
+        color      : $blue;
+        margin-top : 40%;
         margin-left: 5%;
         font-family: $header;
-        font-size: 5em;
+        font-size  : 5em;
     }
 }
 // === end of landing page ===
 
-
-
 #sec_1 {
-
-    #dogbath{
+    #dogbath {
         background-color: yellow;
     }
     width: 100%;
@@ -138,59 +141,52 @@ span.icon-bar {
 
     h1 {
         font-family: 'Fjalla One', sans-serif;
-        font-size: 3em;
-        color: $blue;
-        margin: 0 0 0.3em;
+        font-size  : 3em;
+        color      : $blue;
+        margin     : 0 0 0.3em;
     }
 
     h2 {
         font-family: 'Fjalla One', sans-serif;
-        color: $white;
+        color      : $white;
     }
 
     img {
         padding: 4em;
-
     }
 
     p {
         font-family: $para-text;
-        color: $gray;
-        font-size: 1.3em;
+        color      : $gray;
+        font-size  : 1.3em;
         line-height: 1.3em;
     }
 }
 // === section 2 style start ===
-
 // === PRODUCT LIGHTBOX START ===
-#lightbox_container{
 
+#lightbox_container {}
 
-}
-#product_lightbox{
-
-    height: 65%;
+#product_lightbox {
+    height  : 65%;
     overflow: hidden;
-    bottom: 75%;
-    left: 10%;
+    bottom  : 75%;
+    left    : 10%;
     // background-color: green;
-
 }
-.slick-slide{
+
+.slick-slide {
     // background-color: pink;
-    height: 50%;
-    overflow: hidden;
-    margin-top: 2em;
+    height       : 50%;
+    overflow     : hidden;
+    margin-top   : 2em;
     margin-bottom: -12em;
     // border: solid red 5px;
 }
-
 // === PRODUCT LIGHTBOX END ===
-
-
 // === SIRES START ===
-#sec_2 {
 
+#sec_2 {
     padding: 4em;
 
     a {
@@ -199,30 +195,28 @@ span.icon-bar {
 
     a:visited {
         text-decoration: none;
-        border: none;
+        border         : none;
     }
 
     h1 {
         font-family: 'Fjalla One', sans-serif;
-        font-size: 3em;
-        color: $blue;
+        font-size  : 3em;
+        color      : $blue;
         margin-left: 0.7em;
     }
 
     h2 {
         font-family: 'Fjalla One', sans-serif;
-        color: $green;
+        color      : $green;
     }
 
     p {
         font-family: $para-text;
-        color: $gray;
-        font-size: 1.2em;
+        color      : $gray;
+        font-size  : 1.2em;
     }
 
-    img{
-
-    }
+    img {}
 }
 // === SIRES end ===
 // === DAMS start ===
@@ -236,20 +230,20 @@ span.icon-bar {
     // background-color: coral;
     h1 {
         font-family: 'Fjalla One', sans-serif;
-        font-size: 3em;
-        color: $blue;
+        font-size  : 3em;
+        color      : $blue;
         margin-left: 0.7em;
     }
 
     h2 {
         font-family: $header;
-        color: $green;
+        color      : $green;
     }
 
     p {
         font-family: $para-text;
-        color: $gray;
-        font-size: 1.2em;
+        color      : $gray;
+        font-size  : 1.2em;
     }
 }
 // === DAMS end ===
@@ -260,9 +254,9 @@ span.icon-bar {
 
     h1 {
         font-family: 'Fjalla One', sans-serif;
-        font-size: 3em;
+        font-size  : 3em;
         margin-left: 0.7em;
-        color: $white;
+        color      : $white;
     }
 
     h2 {
@@ -271,14 +265,14 @@ span.icon-bar {
 
     #main {
         background-color: $blue;
-        padding: 2em;
-        margin-left: 0;
-        margin-right: 0;
+        padding         : 2em;
+        margin-left     : 0;
+        margin-right    : 0;
 
         p {
-            color: $white;
+            color      : $white;
             font-family: $para-text;
-            font-size: 1.5em;
+            font-size  : 1.5em;
         }
 
         img {
@@ -290,27 +284,25 @@ span.icon-bar {
         }
 
         h4 {
-            color: $green;
+            color      : $green;
             font-family: $header;
         }
 
         ol {
-            color: $white;
+            color      : $white;
             font-family: $para-text;
-            font-size: 1em;
+            font-size  : 1em;
         }
     }
 
     #product {
-
         margin-top: 3em;
 
-
         button {
-            border-radius: 1em;
+            border-radius   : 1em;
             background-color: transparent;
-            margin-top: 0.5em;
-            border: 1px solid $blue;
+            margin-top      : 0.5em;
+            border          : 1px solid $blue;
         }
 
         h1 {
@@ -318,18 +310,19 @@ span.icon-bar {
         }
 
         img {
-            margin-left: 0;
+            margin-left : 0;
             margin-right: 0;
         }
 
         h4 {
             font-family: 'Fjalla One', sans-serif;
-            color: $gray;
+            color      : $gray;
         }
-        h5{
+
+        h5 {
             font-family: $para-text;
-            color: $blue;
-            font-size: 1.5em;
+            color      : $blue;
+            font-size  : 1.5em;
         }
     }
 
@@ -340,13 +333,13 @@ span.icon-bar {
 
         h4 {
             font-family: 'Open Sans Condensed', sans-serif;
-            color: $gray;
+            color      : $gray;
         }
 
         p {
             font-family: $para-text;
-            color: $gray;
-            font-size: 1.5em;
+            color      : $gray;
+            font-size  : 1.5em;
             line-height: 1.3em;
         }
     }
@@ -355,8 +348,8 @@ span.icon-bar {
 // === section 4 style start ===
 
 #sec_4 {
-    padding: 2em;
-    margin: 0;
+    padding         : 2em;
+    margin          : 0;
     background-color: $gray;
 
     .grid {
@@ -365,22 +358,22 @@ span.icon-bar {
 
     p {
         font-family: $para-text;
-        font-size: 1.5em;
+        font-size  : 1.5em;
         line-height: 1.3em;
-        color: $white;
+        color      : $white;
     }
 
     h1 {
         font-family: $header;
-        color: $white;
+        color      : $white;
         margin-left: 0.7em;
     }
 
     ul {
-        font-family: $para-text;
-        font-size: 1.1em;
+        font-family    : $para-text;
+        font-size      : 1.1em;
         list-style-type: disc;
-        color: $white;
+        color          : $white;
     }
 }
 // === section 4 style end ===
@@ -389,15 +382,15 @@ span.icon-bar {
 #sec_5 {
     h1 {
         font-family: $header;
-        color: $blue;
+        color      : $blue;
         margin-left: 0.7em;
     }
-    margin-left: 3em;
+    margin-left : 3em;
     margin-right: 3em;
 
     .container-fluid {
         padding-right: 3%;
-        height: 40%;
+        height       : 40%;
     }
 
     .img-circle {}
@@ -407,19 +400,46 @@ span.icon-bar {
     }
 }
 // === section 5 style end ===
+// === start of contact_form ===
 
-.footer {
-    // background-color: $gray;
+#contact_form {
+    margin-left: 25%;
+    margin-top : 2em;
+    color      : $blue;
+
+    h1 {
+        font-family: $header;
+        color      : $blue;
+    }
 
     p {
-        color: $blue;
+        font-family: $para-text;
+        font-size  : 0.5em;
+    }
+
+    input[placeholder][name] {
+        font-family: $para-text;
+        color      : $blue;
+    }
+
+    button {
+        font-family: $para-text;
+        color      : #808080;
+    }
+}
+// === end of contact_form ===
+
+#footer {
+    p {
+        color : $blue;
+        margin: auto auto 1em;
     }
 }
 // ============== MODAL STYLE ==============
 
 .modal-admin {
     margin: auto;
-    width: 50%;
+    width : 50%;
     height: 15%;
 }
 
@@ -430,7 +450,7 @@ span.icon-bar {
     // background-color: khaki;
     h2 {
         font-family: $header;
-        color: $green;
+        color      : $green;
     }
 
     img {
@@ -441,7 +461,7 @@ span.icon-bar {
 .modal-body {
     p {
         font-family: $para-text;
-        color: $gray;
+        color      : $gray;
     }
     border-top: none;
 
@@ -450,13 +470,13 @@ span.icon-bar {
     }
 
     h3 {
-        color: $blue;
+        color      : $blue;
         font-family: $header;
     }
 
     h4 {
         font-family: $para-text;
-        color: $gray;
+        color      : $gray;
     }
 }
 // ============== END OF MODAL STYLE ==============

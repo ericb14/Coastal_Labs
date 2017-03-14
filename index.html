@@ -659,25 +659,56 @@
     </div>
     <!-- === end of section 5 === -->
 
-    <!-- === start of footer === -->
-    <div class="footer">
-        <div class="container-fluid center-block">
+    <!-- === start of contact form === -->
+    <div class="row">
 
-            <div id="social_media" class="col-md-6 col-md-offset-3">
-                <!-- <a href="https://twitter.com/"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/"<i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i></a> -->
-                <p class="text-center">&copy; 2016 Rainforest Coastal Labs, St. Louis MO</p>
+
+        <div id="contact_form" class="col-sm-8 col-sm-offset-3">
+            <h1 class="center-block">CONTACT US <p>
+                (314) 324-2486
+            </p></h1>
+
+
+            <div class="row form-group">
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required="">
+                </div>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required="">
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-xs-5">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                </div>
+                <div class="col-xs-5">
+                    <input type="email" class="form-control" name="phone" placeholder="Phone" required="">
+                </div>
             </div>
 
+            <div class="row form-group">
+                <div class="col-xs-10">
+                    <button class="btn btn-default pull-right">Contact Us</button>
+                </div>
+            </div>
         </div>
-
-        </footer>
     </div>
+    <!-- === end of contact form  === -->
+
+    <!-- === start of footer === -->
+    <div class="row">
+        <div id="footer" class="bottom-align-text">
+            <p class="text-center">&copy; 2016 Rainforest Coastal Labs, St. Louis MO</p>
+        </div>
+    </div>
+    <!-- === end of footer === -->
+
 
     </div>
     <!-- === end of main container === -->
+
+
+
     <script src="js/lightbox.js"></script>
 
     <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -691,6 +722,7 @@
                 centerMode: false,
             });
         });
+
     </script>
 
 </body>

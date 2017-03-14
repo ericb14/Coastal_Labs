@@ -8,7 +8,9 @@ div.container-fluid {
   padding: 0 !important;
   margin: 0 !important; }
 
-body {
+body,
+html {
+  height: 100%;
   margin: 0;
   padding: 0; }
 
@@ -242,8 +244,26 @@ span.icon-bar {
   #sec_5 img {
     margin: 0.5em; }
 
-.footer p {
+#contact_form {
+  margin-left: 25%;
+  margin-top: 2em;
   color: #4D7AA1; }
+  #contact_form h1 {
+    font-family: "Fjalla One", sans-serif;
+    color: #4D7AA1; }
+  #contact_form p {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: .5em; }
+  #contact_form input[placeholder][name] {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #4D7AA1; }
+  #contact_form button {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #808080; }
+
+#footer p {
+  color: #4D7AA1;
+  margin: auto auto 1em; }
 
 .modal-admin {
   margin: auto;
