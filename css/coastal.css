@@ -8,10 +8,11 @@ div.container-fluid {
   padding: 0 !important;
   margin: 0 !important; }
 
-body,
-html {
+body {
   height: 100%;
   margin: 0;
+  padding: 0;
+  width: 100%;
   padding: 0; }
 
 a:focus {
@@ -78,7 +79,9 @@ span.icon-bar {
     margin-top: 40%;
     margin-left: 5%;
     font-family: "Fjalla One", sans-serif;
-    font-size: 5em; }
+    font-size: 5em;
+    position: absolute;
+    bottom: 0.5em; }
 
 #sec_1 {
   width: 100%; }
@@ -253,7 +256,7 @@ span.icon-bar {
     color: #4D7AA1; }
   #contact_form p {
     font-family: "Open Sans Condensed", sans-serif;
-    font-size: .5em; }
+    font-size: 0.5em; }
   #contact_form input[placeholder][name] {
     font-family: "Open Sans Condensed", sans-serif;
     color: #4D7AA1; }

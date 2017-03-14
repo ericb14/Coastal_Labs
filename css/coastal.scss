@@ -19,10 +19,11 @@ div.container-fluid {
     margin          : 0 !important;
 }
 
-body,
-html {
+body {
     height : 100%;
     margin : 0;
+    padding: 0;
+    width  : 100%;
     padding: 0;
 }
 // body {
@@ -121,6 +122,8 @@ span.icon-bar {
         margin-left: 5%;
         font-family: $header;
         font-size  : 5em;
+        position   : absolute;
+        bottom     : 0.5em;
     }
 }
 // === end of landing page ===
