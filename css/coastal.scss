@@ -64,6 +64,16 @@ span.icon-bar {
         color : white;
         margin: 0.3em;
     }
+
+    button#checkout_button {
+        border          : none;
+        background-color: none;
+        background      : transparent;
+    }
+
+    #cart_link {
+        background: transparent;
+    }
 }
 
 .navbar-brand {

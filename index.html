@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
+
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -49,6 +50,24 @@
                         <li><a href="#sec_4">TRAINING</a></li>
                         <li><a href="#sec_5">GALLERY</a></li>
                         <li><a href="#contact_form">CONTACT</a></li>
+                        <li id="cart_link">
+                            <!-- === view my cart button === -->
+
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIG1QYJKoZIhvcNAQcEoIIGxjCCBsICAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC7gsRyEWcuXmHjD/kmFjB6cuzAzQcJUAQUyl0HZrF3kMl8prL4VycBRPERtjOhlQXPkd3QsrnXm9omqCH2eDbkAtTpTdZhmnyLCj6XFlvLP5xkTxVr/9XWvUIsYSWpa6wQr47XcqVbnBhKCe/ZxOkLvTfCaqUt0A0BYfbBjgaJrDELMAkGBSsOAwIaBQAwUwYJKoZIhvcNAQcBMBQGCCqGSIb3DQMHBAg/XBA1GF7gdoAwDPgChbbcxjXAudPI+wdPG1tCkLLoawym7L37EbIxvPWQ+++BOF2fWjhxWOvYxf2/oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTcwMzEzMjIwMzI3WjAjBgkqhkiG9w0BCQQxFgQUTQ1jdct10yNjFhZSB+ELRIZiqRowDQYJKoZIhvcNAQEBBQAEgYA++Uv/dqq9niwwIxAg6VbfH5weMyhJKXTWb5aL3UIe8BlRsnDUt67ImXliuCH+RimYliQrV1xyVKK8soHOlSEeySTZzFZaTJ+qJlUu/QR2Hpt3W8+aFJPH0aA+KOoqhZRknRElqMpjM0qF5TUY1x6+x3mnjoE4glupWEX34zRStw==-----END PKCS7-----
+        ">
+
+                                <button id="checkout_button" type="image" src="" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                <i class="fa fa-shopping-cart fa-2x" aria-hidden="true" style="color:#4d7aa1"></i>
+
+                            </form>
+
+
+                            <!-- === view my cart button end === -->
+
+                        </li>
                     </ul>
                     <a href="https://www.facebook.com/RainforestCoastalLabs/?fref=ts/"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
                 </div>
@@ -166,7 +185,6 @@
 
 
 
-
                 </div>
                 <div id="extreme_coat" class="col-sm-2">
                     <img class="img-responsive" src="images/Groomers1gal.jpg" />
@@ -229,89 +247,89 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
 
-                        <img id="modal-img" class="img-responsive img-circle" />
-                        <h2 class="modal-title" id="dogName">Dog Name</h2>
-                        <div class="row">
-                            <div class="col-md-10 col-md-offset-1">
-                                <p>this is some stuff about each dog</p>
-                            </div>
-                        </div>
+                                <img id="modal-img" class="img-responsive img-circle" />
+                                <h2 class="modal-title" id="dogName">Dog Name</h2>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <p>this is some stuff about each dog</p>
+                                    </div>
+                                </div>
 
-                        <!-- === start of row 1 === -->
-                        <div class="row">
-                            <div id="row_1" class="col-md-3">
-                                <div id="akc">
-                                    <h3>AKC#</h3>
-                                    <h4></h4></div>
-                            </div>
-                            <div id="row_1" class="col-md-3">
-                                <div id="ukc">
-                                    <h3>UKC#</h3>
-                                    <h4></h4></div>
-                            </div>
-                            <div id="row_1" class="col-md-3">
-                                <div id="dob">
-                                    <h3>DOB</h3>
-                                    <h4></h4></div>
-                            </div>
-                            <div id="row_1" class="col-md-3">
-                                <div id="color">
-                                    <h3>COLOR</h3>
-                                    <h4></h4></div>
-                            </div>
-                        </div>
-                        <!-- === end of row 1 === -->
+                                <!-- === start of row 1 === -->
+                                <div class="row">
+                                    <div id="row_1" class="col-md-3">
+                                        <div id="akc">
+                                            <h3>AKC#</h3>
+                                            <h4></h4></div>
+                                    </div>
+                                    <div id="row_1" class="col-md-3">
+                                        <div id="ukc">
+                                            <h3>UKC#</h3>
+                                            <h4></h4></div>
+                                    </div>
+                                    <div id="row_1" class="col-md-3">
+                                        <div id="dob">
+                                            <h3>DOB</h3>
+                                            <h4></h4></div>
+                                    </div>
+                                    <div id="row_1" class="col-md-3">
+                                        <div id="color">
+                                            <h3>COLOR</h3>
+                                            <h4></h4></div>
+                                    </div>
+                                </div>
+                                <!-- === end of row 1 === -->
 
-                        <!-- === start of row 2 === -->
-                        <div class="row">
-                            <div id="row_1" class="col-md-3">
-                                <div id="ofa">
-                                    <h3>OFA#</h3>
-                                    <h4></h4></div>
-                            </div>
-                            <div id="row_1" class="col-md-3">
-                                <div id="cerf">
-                                    <h3>CERF#</h3>
-                                    <h4></h4></div>
-                            </div>
-                            <div id="row_1" class="col-md-3">
-                                <div id="cnm">
-                                    <h3>CNM</h3>
-                                    <h4></h4></div>
-                            </div>
-                        </div>
-                        <!-- === end of row 2 === -->
+                                <!-- === start of row 2 === -->
+                                <div class="row">
+                                    <div id="row_1" class="col-md-3">
+                                        <div id="ofa">
+                                            <h3>OFA#</h3>
+                                            <h4></h4></div>
+                                    </div>
+                                    <div id="row_1" class="col-md-3">
+                                        <div id="cerf">
+                                            <h3>CERF#</h3>
+                                            <h4></h4></div>
+                                    </div>
+                                    <div id="row_1" class="col-md-3">
+                                        <div id="cnm">
+                                            <h3>CNM</h3>
+                                            <h4></h4></div>
+                                    </div>
+                                </div>
+                                <!-- === end of row 2 === -->
 
-                    </div>
                 </div>
             </div>
-        </div>
-        <!-- === end of MODAL === -->
+    </div>
+    </div>
+    <!-- === end of MODAL === -->
 
-        <!-- === start of section 2 SIRES === -->
-        <div id="sec_2">
-            <div class="row">
-                <h1>SIRES</h1>
-            </div>
-            <div class="row">
-                <!-- === cain === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Cain" data-akc="SR59425301" data-dob="11/18/09" data-ukc="R213-959" data-color="Trifactored" data-ofa="Hips Good" data-cerf="LR-195402G24M-VPI" data-cnm="clear" data-info="Cain, (deep) chocolate, has the natural athletic abilities and intelligence for field-work. At not even one year old achieved his Started Hunting Retriever title (SHR, for UKC) and his Junior Hunter title (JH, for AKC). He has a very loyal, sweet and loving disposition.
+    <!-- === start of section 2 SIRES === -->
+    <div id="sec_2">
+        <div class="row">
+            <h1>SIRES</h1>
+        </div>
+        <div class="row">
+            <!-- === cain === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Cain" data-akc="SR59425301" data-dob="11/18/09" data-ukc="R213-959" data-color="Trifactored" data-ofa="Hips Good" data-cerf="LR-195402G24M-VPI" data-cnm="clear" data-info="Cain, (deep) chocolate, has the natural athletic abilities and intelligence for field-work. At not even one year old achieved his Started Hunting Retriever title (SHR, for UKC) and his Junior Hunter title (JH, for AKC). He has a very loyal, sweet and loving disposition.
 
                 Cain achieved his 1st Master pass shortly after he turned two years old and got his Master title still at the age of 2.  He also qualified for and ran in the 2012 HRC Spring Grand in Wisc. He had a wonderful run, but due to my inexperience did not go very far.
 
                 Cain will be running Field Trial Qualifiers in 2014.
 
                 Cain is qualified for the 2013 Master Nationals and will be running this September." data-toggle="modal" href="#dogModal">
-                        <img id="cain_pic" class="img-responsive img-circle" src="images/cain.jpg" />
-                        <h2>Cain</h2>
-                        <p>Cain, (deep) chocolate, has the natural athletic abilities and intelligence for field-work.</p>
-                    </a>
-                </div>
+                    <img id="cain_pic" class="img-responsive img-circle" src="images/cain.jpg" />
+                    <h2>Cain</h2>
+                    <p>Cain, (deep) chocolate, has the natural athletic abilities and intelligence for field-work.</p>
+                </a>
+            </div>
 
-                <!-- === ezra === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Ezra" data-akc="SR64858309" data-dob="11/8/10" data-ukc="R220-322" data-color="Fox Red/Yellow,Black factored" data-ofa="Hips Excellent" data-cerf="LR-200741E24m-VPI" data-cnm="clear" data-info="Ezra earned his SHR...Started Hunting Retriever title (UKC) at the age of 5 months, and achieved his HRCH at 17 months. Ezra earned his Junior Hunter title fall 2011 and just earned his AKC Master Hunter title at just over 2 years. His desire to learn, achieve and succeed is unparalleled.
+            <!-- === ezra === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Ezra" data-akc="SR64858309" data-dob="11/8/10" data-ukc="R220-322" data-color="Fox Red/Yellow,Black factored" data-ofa="Hips Excellent" data-cerf="LR-200741E24m-VPI" data-cnm="clear" data-info="Ezra earned his SHR...Started Hunting Retriever title (UKC) at the age of 5 months, and achieved his HRCH at 17 months. Ezra earned his Junior Hunter title fall 2011 and just earned his AKC Master Hunter title at just over 2 years. His desire to learn, achieve and succeed is unparalleled.
 
                 Ezra has been running successfully both AKC hunt tests and UKC hunt tests all 2012. Ezra also qualified for the 2012 Spring HRC Grand held in Wisconsin where he was the youngest dog entered and to run in the Grand!!!
 
@@ -320,70 +338,70 @@
                 Ezra has all but 1 pass needed to also qualify to run in the 2013 Master Nationals.
 
                 Ezra will be running Field Trial Qualifiers in 2014." data-toggle="modal" href="#dogModal">
-                        <img class="img-responsive img-circle" src="images/ezra.jpg">
-                        <h2>Ezra</h2>
-                        <p>Earned his SHR...Started Hunting Retriever title (UKC) at the age of 5 months, and achieved his HRCH at 17 months.</p>
-                    </a>
-                </div>
-
-                <!-- === elias === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Elias" data-akc="SR81559804" data-dob="3/1/14" data-ukc="R246-427" data-color="Yellow/Black" data-ofa="Hips Excellent" data-cerf="clear" data-cnm="clear" data-info="Elias is a beautiful yellow lab out of all Field Champions and Amatuer Field Champions on both sides of his pedigree.  He is a strong willed pup that has a lot of determination to get what he wants, yet is eager to please and very sweet in the house."
-                        data-toggle="modal" href="#dogModal">
-                        <img class="img-responsive img-circle" src="images/elias.jpg" />
-                        <h2>Elias</h2>
-                        <p>Elias is a beautiful yellow lab out of all Field Champions and Amatuer Field Champions on both sides of his pedigree. He is a strong willed pup that has a lot of determination to get what he wants, yet is eager to please and very
-                            sweet in the house.</p>
-                    </a>
-                </div>
-
-                <!-- === drake === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Drake" data-akc="SR70550908" data-dob="11/26/11" data-ukc="R228-351" data-color="Fox Red/Yellow,Black factored" data-ofa="Hips Excellent" data-cerf="LR-206332E24F-VPI" data-cnm="clear" data-info="Drake black, carrying yellow/fox red, has the classic boxy head like his grandfather Samson  He is confident, sweet, loyal and works well at relaxing under my desk on days I work from home. Once her arrives in the field, he is ready to go and driven/focused. He is intelligent with great natural hunting and retrieving instincts."
-                        data-toggle="modal" href="#dogModal">
-                        <img class="img-responsive img-circle" src="images/drake.jpg" />
-                        <h2>Drake</h2>
-                        <p>Drake ..this needs copy for this dog.</p>
-                    </a>
-                </div>
-
+                    <img class="img-responsive img-circle" src="images/ezra.jpg">
+                    <h2>Ezra</h2>
+                    <p>Earned his SHR...Started Hunting Retriever title (UKC) at the age of 5 months, and achieved his HRCH at 17 months.</p>
+                </a>
             </div>
 
-            <!-- === END OF FIRST ROW SIRES === -->
+            <!-- === elias === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Elias" data-akc="SR81559804" data-dob="3/1/14" data-ukc="R246-427" data-color="Yellow/Black" data-ofa="Hips Excellent" data-cerf="clear" data-cnm="clear" data-info="Elias is a beautiful yellow lab out of all Field Champions and Amatuer Field Champions on both sides of his pedigree.  He is a strong willed pup that has a lot of determination to get what he wants, yet is eager to please and very sweet in the house."
+                    data-toggle="modal" href="#dogModal">
+                    <img class="img-responsive img-circle" src="images/elias.jpg" />
+                    <h2>Elias</h2>
+                    <p>Elias is a beautiful yellow lab out of all Field Champions and Amatuer Field Champions on both sides of his pedigree. He is a strong willed pup that has a lot of determination to get what he wants, yet is eager to please and very sweet
+                        in the house.</p>
+                </a>
+            </div>
 
-            <!-- === START OF SECOND ROW SIRES === -->
-            <div class="row">
-                <!-- === Eddie === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Eddie" data-akc="###" data-dob="###" data-ukc="###" data-color="###" data-ofa="?" data-cerf="###" data-cnm="clear" data-info="Eddie black, carrying chocolate, has a sleek and athletic build. He has extreme drive and natural intelligence in the field. He is loving, patient, desire to please and even more so loves snuggling with me on the couch  He is an all around team player in whatever I want to do with him."
-                        data-toggle="modal" href="#dogModal">
-                        <img class="img-responsive img-circle" src="images/eddie.jpg" />
-                        <h2>Eddie</h2>
-                        <p>Eddie black, carrying chocolate, has a sleek and athletic build. He has extreme drive and natural intelligence in the field. He is loving, patient, desire to please and even more so loves snuggling with me on the couch He is an
-                            all around team player in whatever I want to do with him.</p>
-                    </a>
-                </div>
+            <!-- === drake === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Drake" data-akc="SR70550908" data-dob="11/26/11" data-ukc="R228-351" data-color="Fox Red/Yellow,Black factored" data-ofa="Hips Excellent" data-cerf="LR-206332E24F-VPI" data-cnm="clear" data-info="Drake black, carrying yellow/fox red, has the classic boxy head like his grandfather Samson  He is confident, sweet, loyal and works well at relaxing under my desk on days I work from home. Once her arrives in the field, he is ready to go and driven/focused. He is intelligent with great natural hunting and retrieving instincts."
+                    data-toggle="modal" href="#dogModal">
+                    <img class="img-responsive img-circle" src="images/drake.jpg" />
+                    <h2>Drake</h2>
+                    <p>Drake ..this needs copy for this dog.</p>
+                </a>
+            </div>
 
-                <!-- === Micah === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Micah" data-akc="SR79979705" data-dob="10/9/13" data-ukc="R243-263" data-color="Chocolate factored" data-ofa="Hips" data-cerf="clear" data-cnm="clear" data-info="Micah info coming soon" data-toggle="modal" href="#dogModal">
-                        <img class="img-responsive img-circle" src="images/micah.jpg" />
-                        <h2>Micah</h2>
-                        <p>Micah info needed here too</p>
-                    </a>
-                </div>
+        </div>
 
-                <!-- === Ezekiel === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Sketch" data-akc="SR81559805" data-dob="3/1/14" data-ukc="R249-158" data-color="Black/Yellow Factored" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="Ezekiel is our newest addition, is a darker yellow male that is out of the 2016 National Amateur Field Trail winner. He is all about getting what he wants, while still such a sweet, eager to please pup."
-                        data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/sketch.jpg" />
-                        <h2>Ezekiel</h2>
-                        <p>Ezekiel is our newest addition, is a darker yellow male that is out of the 2016 National Amateur Field Trail winner. He is all about getting what he wants, while still such a sweet, eager to please pup.</p>
-                    </a>
-                </div>
-                <!-- === samson === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Samson" data-akc="SR53081504" data-dob="11/17/08" data-ukc="R206-904" data-color="Trifactored" data-ofa="1414374" data-cerf="LR-567794N/2010" data-cnm="clear" data-info="Samson, black, has the classic look of the 'Ducks Unlimited' dog with a boxy face and a conformation style body with great talent on marking and blind retrieves. He is sweet and docile in the home, yet a go-getter in the field. Fall 2011, Samson earned his UKC Upland title and AKC Master Hunter title. We are planning on taking him to the Spring Grand in 2012 and Master Nationals. Samson also has his CGC (Canine Good Citizen title) and ThD (Certified Therapy Dog title, an AKC title).
+        <!-- === END OF FIRST ROW SIRES === -->
+
+        <!-- === START OF SECOND ROW SIRES === -->
+        <div class="row">
+            <!-- === Eddie === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Eddie" data-akc="###" data-dob="###" data-ukc="###" data-color="###" data-ofa="?" data-cerf="###" data-cnm="clear" data-info="Eddie black, carrying chocolate, has a sleek and athletic build. He has extreme drive and natural intelligence in the field. He is loving, patient, desire to please and even more so loves snuggling with me on the couch  He is an all around team player in whatever I want to do with him."
+                    data-toggle="modal" href="#dogModal">
+                    <img class="img-responsive img-circle" src="images/eddie.jpg" />
+                    <h2>Eddie</h2>
+                    <p>Eddie black, carrying chocolate, has a sleek and athletic build. He has extreme drive and natural intelligence in the field. He is loving, patient, desire to please and even more so loves snuggling with me on the couch He is an all
+                        around team player in whatever I want to do with him.</p>
+                </a>
+            </div>
+
+            <!-- === Micah === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Micah" data-akc="SR79979705" data-dob="10/9/13" data-ukc="R243-263" data-color="Chocolate factored" data-ofa="Hips" data-cerf="clear" data-cnm="clear" data-info="Micah info coming soon" data-toggle="modal" href="#dogModal">
+                    <img class="img-responsive img-circle" src="images/micah.jpg" />
+                    <h2>Micah</h2>
+                    <p>Micah info needed here too</p>
+                </a>
+            </div>
+
+            <!-- === Ezekiel === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Sketch" data-akc="SR81559805" data-dob="3/1/14" data-ukc="R249-158" data-color="Black/Yellow Factored" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="Ezekiel is our newest addition, is a darker yellow male that is out of the 2016 National Amateur Field Trail winner. He is all about getting what he wants, while still such a sweet, eager to please pup."
+                    data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/sketch.jpg" />
+                    <h2>Ezekiel</h2>
+                    <p>Ezekiel is our newest addition, is a darker yellow male that is out of the 2016 National Amateur Field Trail winner. He is all about getting what he wants, while still such a sweet, eager to please pup.</p>
+                </a>
+            </div>
+            <!-- === samson === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Samson" data-akc="SR53081504" data-dob="11/17/08" data-ukc="R206-904" data-color="Trifactored" data-ofa="1414374" data-cerf="LR-567794N/2010" data-cnm="clear" data-info="Samson, black, has the classic look of the 'Ducks Unlimited' dog with a boxy face and a conformation style body with great talent on marking and blind retrieves. He is sweet and docile in the home, yet a go-getter in the field. Fall 2011, Samson earned his UKC Upland title and AKC Master Hunter title. We are planning on taking him to the Spring Grand in 2012 and Master Nationals. Samson also has his CGC (Canine Good Citizen title) and ThD (Certified Therapy Dog title, an AKC title).
 
                 Samson's first attempt at competing in Conformation, won 22 ribbons at the shows held in Peoria,IL early July. He just completed his UKC confirmation title in Richmond, KY.
 
@@ -392,324 +410,324 @@
                 Samson is qualified for the 2012 Master Nationals in Bruce, Mississippi.  Samson is also qualified and will be running 2013 Master Nationals.
 
                 Samson will be running his first Qualifier in July 2013" data-toggle="modal" href="#dogModal">
-                        <img id="samson_pic" class="img-responsive img-circle" src="images/samson.jpg" />
-                        <h2>Samson</h2>
-                        <p>Samson, black, has the classic look of the "Ducks Unlimited" dog with a boxy face and a conformation style.</p>
-                    </a>
-                </div>
+                    <img id="samson_pic" class="img-responsive img-circle" src="images/samson.jpg" />
+                    <h2>Samson</h2>
+                    <p>Samson, black, has the classic look of the "Ducks Unlimited" dog with a boxy face and a conformation style.</p>
+                </a>
             </div>
         </div>
-        <!-- == end of sec_2 === -->
+    </div>
+    <!-- == end of sec_2 === -->
 
-        <!-- === start of section 2A DAMS === -->
-        <div id="sec_2A">
-            <div class="row">
-                <h1>DAMS</h1>
+    <!-- === start of section 2A DAMS === -->
+    <div id="sec_2A">
+        <div class="row">
+            <h1>DAMS</h1>
+        </div>
+
+        <div class="row">
+            <!-- === Esther === -->
+            <div class="col-md-3 col-sm-offset-2">
+                <a class="dogLink" data-dog="Esther" data-akc="SR81559805" data-dob="3/1/14" data-ukc="R249-158" data-color="Black/Yellow Factored" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="Ruth is a beautiful black lab out of all Field Champions and Amatuer Field Champions on both sides of her pedigree.  Ruthie has a very sweet disposition in the house, nice line manners (already at 6mos), is a great marker and hasan amazing amount of drive and a big heart to please! We are hoping to run her in Derbies in the Spring and Fall of 2015."
+                    data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/esther.jpg" />
+                    <h2>Esther</h2>
+                    <p>Esther info.</p>
+                </a>
+
             </div>
 
-            <div class="row">
-                <!-- === Esther === -->
-                <div class="col-md-3 col-sm-offset-2">
-                    <a class="dogLink" data-dog="Esther" data-akc="SR81559805" data-dob="3/1/14" data-ukc="R249-158" data-color="Black/Yellow Factored" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="Ruth is a beautiful black lab out of all Field Champions and Amatuer Field Champions on both sides of her pedigree.  Ruthie has a very sweet disposition in the house, nice line manners (already at 6mos), is a great marker and hasan amazing amount of drive and a big heart to please! We are hoping to run her in Derbies in the Spring and Fall of 2015."
-                        data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/esther.jpg" />
-                        <h2>Esther</h2>
-                        <p>Esther info.</p>
-                    </a>
+            <!-- === ruthie === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Ruthie" data-akc="SR81559805" data-dob="3/1/14" data-ukc="R249-158" data-color="Black/Yellow Factored" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="Ruth is a beautiful black lab out of all Field Champions and Amatuer Field Champions on both sides of her pedigree.  Ruthie has a very sweet disposition in the house, nice line manners (already at 6mos), is a great marker and hasan amazing amount of drive and a big heart to please! We are hoping to run her in Derbies in the Spring and Fall of 2015."
+                    data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/ruthie.jpg" />
+                    <h2>Ruthie</h2>
+                    <p>Ruth is a beautiful black lab out of all Field Champions and Amatuer Field Champions on both sides of her pedigree. Ruthie has a very sweet disposition in the house, nice line manners (already at 6mos), is a great marker and hasan
+                        amazing amount of drive and a big heart to please!</p>
+                </a>
+            </div>
 
-                </div>
-
-                <!-- === ruthie === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Ruthie" data-akc="SR81559805" data-dob="3/1/14" data-ukc="R249-158" data-color="Black/Yellow Factored" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="Ruth is a beautiful black lab out of all Field Champions and Amatuer Field Champions on both sides of her pedigree.  Ruthie has a very sweet disposition in the house, nice line manners (already at 6mos), is a great marker and hasan amazing amount of drive and a big heart to please! We are hoping to run her in Derbies in the Spring and Fall of 2015."
-                        data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/ruthie.jpg" />
-                        <h2>Ruthie</h2>
-                        <p>Ruth is a beautiful black lab out of all Field Champions and Amatuer Field Champions on both sides of her pedigree. Ruthie has a very sweet disposition in the house, nice line manners (already at 6mos), is a great marker and hasan
-                            amazing amount of drive and a big heart to please!</p>
-                    </a>
-                </div>
-
-                <!-- === leah === -->
-                <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
-                    <a class="dogLink" data-dog="Leah" data-akc="SR79979705" data-dob="10/9/13" data-ukc="R243-263" data-color="Chocolate factored" data-ofa="Hips" data-cerf="clear" data-cnm="clear" data-info="Leah, my newest pup, is out of multiple generations of Field and Amateur Field Champions.
+            <!-- === leah === -->
+            <div class="col-md-3 col-sm-offset-2 col-lg-offset-0">
+                <a class="dogLink" data-dog="Leah" data-akc="SR79979705" data-dob="10/9/13" data-ukc="R243-263" data-color="Chocolate factored" data-ofa="Hips" data-cerf="clear" data-cnm="clear" data-info="Leah, my newest pup, is out of multiple generations of Field and Amateur Field Champions.
                     She will be my first real attempt at training from the beginning, for field trials only.
                     Leah has been retrieving since 7 weeks small bumpers and at 10 weeks whole small ducks already!" data-toggle="modal" href="#dogModal">
-                        <img class="img-responsive img-circle" src="images/leah.jpg" />
-                        <h2>Leah</h2>
-                        <p>Leah, my newest pup, is out of multiple generations of Field and Amateur Field Champions. She will be my first real attempt at training from the beginning, for field trials only. Leah has been retrieving since 7 weeks small bumpers
-                            and at 10 weeks whole small ducks already.</p>
-                    </a>
-                </div>
+                    <img class="img-responsive img-circle" src="images/leah.jpg" />
+                    <h2>Leah</h2>
+                    <p>Leah, my newest pup, is out of multiple generations of Field and Amateur Field Champions. She will be my first real attempt at training from the beginning, for field trials only. Leah has been retrieving since 7 weeks small bumpers
+                        and at 10 weeks whole small ducks already.</p>
+                </a>
+            </div>
 
-                <!-- === Vashti === -->
-                <div class="col-md-3 col-md-offset-3 col-sm-offset-2">
-                    <a class="dogLink" data-dog="Vashti" data-akc="SR93618801" data-dob="?" data-ukc="R264-619" data-color="Chocolate" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="GORGEOUS deep dark chocolate (who also carries yellow) daughter of my Cain that seems to carry her father's loving, sweet, eager to please temperament and in the field is an absolute joy to run! We have high hopes for this girl!"
-                        data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/vashti.jpg" />
-                        <h2>Vashti</h2>
-                        <p>GORGEOUS deep dark chocolate (who also carries yellow) daughter of my Cain that seems to carry her father's loving, sweet, eager to please temperament and in the field is an absolute joy to run! We have high hopes for this girl!
-                        </p>
-                    </a>
-                </div>
+            <!-- === Vashti === -->
+            <div class="col-md-3 col-md-offset-3 col-sm-offset-2">
+                <a class="dogLink" data-dog="Vashti" data-akc="SR93618801" data-dob="?" data-ukc="R264-619" data-color="Chocolate" data-ofa="Hips Good" data-cerf="clear" data-cnm="clear" data-info="GORGEOUS deep dark chocolate (who also carries yellow) daughter of my Cain that seems to carry her father's loving, sweet, eager to please temperament and in the field is an absolute joy to run! We have high hopes for this girl!"
+                    data-toggle="modal" href="#dogModal"><img class="img-responsive img-circle" src="images/vashti.jpg" />
+                    <h2>Vashti</h2>
+                    <p>GORGEOUS deep dark chocolate (who also carries yellow) daughter of my Cain that seems to carry her father's loving, sweet, eager to please temperament and in the field is an absolute joy to run! We have high hopes for this girl!
+                    </p>
+                </a>
+            </div>
 
-                <!-- === chloe === -->
-                <div class="col-md-3">
-                    <a class="dogLink" data-dog="Chloe" data-akc="SR72405205" data-dob="4/7/12" data-ukc="R230-117" data-color="Chocolate factored" data-ofa="Hips" data-cerf="LR-208530G24F(Good)<br>LR-EL62882F24" data-cnm="clear" data-info=" RFC's Tell It Like It Is 'Chloe'is the pick of the litter from HRCH UH CH Samson and HR UH Roxie SH. She has not only the looks of a conformation dog, but the 'birdyness' and talent of a working field dog. Soon after bringing her home, she learned to be house broken, comes promptly to either her name or a whistle, brings in the newspaper to the house from the driveway end, has endless energy to retrieve bumpers or duck wings. We are very excited to have her, as she was purchased by my parents who are looking for a calm house companion and duck blind companion, yet also one that will excel in both AKC and UKC hunt tests. I believe Chloe will definitely fill these roles for them. Chloe achieved her CGC(Canine Good Citizen) title at age 10months...quite an aaccomplishment for such a young dog.  She obtained her UKC Started Hunting Retriever title (before the age of 1) and her AKC Junior title at age 1.
+            <!-- === chloe === -->
+            <div class="col-md-3">
+                <a class="dogLink" data-dog="Chloe" data-akc="SR72405205" data-dob="4/7/12" data-ukc="R230-117" data-color="Chocolate factored" data-ofa="Hips" data-cerf="LR-208530G24F(Good)<br>LR-EL62882F24" data-cnm="clear" data-info=" RFC's Tell It Like It Is 'Chloe'is the pick of the litter from HRCH UH CH Samson and HR UH Roxie SH. She has not only the looks of a conformation dog, but the 'birdyness' and talent of a working field dog. Soon after bringing her home, she learned to be house broken, comes promptly to either her name or a whistle, brings in the newspaper to the house from the driveway end, has endless energy to retrieve bumpers or duck wings. We are very excited to have her, as she was purchased by my parents who are looking for a calm house companion and duck blind companion, yet also one that will excel in both AKC and UKC hunt tests. I believe Chloe will definitely fill these roles for them. Chloe achieved her CGC(Canine Good Citizen) title at age 10months...quite an aaccomplishment for such a young dog.  She obtained her UKC Started Hunting Retriever title (before the age of 1) and her AKC Junior title at age 1.
 
                 Chloe, her first duck hunting season out, retrieved over 80 ducks for my father both seen and unseen (run as blinds) She also ran her first Upland hunt tests in Feb 2013 and got her title in 4/4 passes--no fails...she is a natural at whatever she does!"
-                        data-toggle="modal" href="#dogModal">
-                        <img class="img-responsive img-circle" src="images/chloe.jpg" />
-                        <h2>Chloe</h2>
-                        <p>RFC's Tell It Like It Is Chloe is the pick of the litter from HRCH UH CH Samson and HR UH Roxie SH. She has not only the looks of a conformation dog, but the "birdyness" and talent of a working field dog.</p>
-                    </a>
-                </div>
+                    data-toggle="modal" href="#dogModal">
+                    <img class="img-responsive img-circle" src="images/chloe.jpg" />
+                    <h2>Chloe</h2>
+                    <p>RFC's Tell It Like It Is Chloe is the pick of the litter from HRCH UH CH Samson and HR UH Roxie SH. She has not only the looks of a conformation dog, but the "birdyness" and talent of a working field dog.</p>
+                </a>
             </div>
-            <!-- === end of second row === -->
         </div>
-        <!-- === end of section 2A DAMS === -->
+        <!-- === end of second row === -->
+    </div>
+    <!-- === end of section 2A DAMS === -->
 
-        <!-- === start of section 4 === -->
-        <div id="sec_4">
-            <div class="row">
-
-                <h1>TRAINING</h1>
-
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <p>After joining Gateway HRC and Retrievers Unlimited HRC, I have found myself surrounded by a group of some of the best trainers in the Midwest. We work with dogs in show conformation,obedience training and field training.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="grid_wrapper row">
-                <div class="row">
-                    <div><img class="img-responsive center-block" src="images/ezraBanner.png" style="margin-bottom:2em;" /></div>
-                </div>
-                <div class="grid col-xs-12 col-md-10 col-lg-6 col-md-offset-1 col-lg-offset-3">
-                    <img id="labs" class="img-responsive border" src="images/ducks.jpg" />
-                </div>
-                <div class="grid col-xs-6 col-md-5 col-lg-3 col-md-offset-1 col-lg-offset-3">
-                    <img id="ribbons" class="img-responsive" src="images/sammy2.jpg" />
-                </div>
-                <div class="grid col-xs-6 col-md-5 col-lg-3">
-                    <img class="img-responsive" src="images/ezra2.jpg" />
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-        <!-- === end of section 4 === -->
-
-        <!-- === start of section 5 GALLERY === -->
-        <div id="sec_5">
-
-            <h1>PHOTO GALLERY</h1>
-
-            <!-- === start of row 1 === -->
-            <div class="row">
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Ezra_Field.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Ezra_Field.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Ruthie_Field_Thumb.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Ruthie_Field_Thumb.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Bullet_2016.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Bullet_2016.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Eddie2.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Eddie2.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Eddie3.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Eddie3.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther2.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Esther2.jpg">
-                    </a>
-                </div>
-
-            </div>
-            <!--        end of row 1 -->
-
-            <!--            start of row 2 col-xs-4-->
-            <div class="row">
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther3.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Esther3.jpg">
-                    </a>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther4.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Esther4.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther5.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/Esther5.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/bumper_dog.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/bumper_dog.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/two_dogs.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/two_dogs.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/puppy_bumper.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/puppy_bumper.jpg">
-                    </a>
-                </div>
-            </div>
-            <!--            end of row 2 col-xs-4-->
-
-            <!--            start of row 3-->
-            <div class="row">
-                <div class="col-md-2 col-xs-4">
-                    <a class="." data-lightbox="puppy" data-title="" href="images/gallery/choco_puppy.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/choco_puppy.jpg">
-                    </a>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/sleeping_dogs.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/sleeping_dogs.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/blind_dog.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/blind_dog_thumb.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/puppys.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/puppys_thumb.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/twins.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/twins.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/bathtime.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/bathtime_thumb.jpg">
-                    </a>
-                </div>
-            </div>
-
-            <!--            end of row 3-->
-
-            <!--            start of row 4-->
-            <div class="row">
-                <div class="col-md-2 col-xs-4">
-                    <a class="." data-lightbox="puppy" data-title="" href="images/gallery/gigi_bumper.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/gigi_bumper.jpg">
-                    </a>
-                </div>
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/3dogs.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/3dogs.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/xmas_pups.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/xmas_pups_thumb.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/water_gun.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/water_gun.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/lake_retrieve.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/lake_retrieve_thumb.jpg">
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-xs-4">
-                    <a class="" data-lightbox="puppy" data-title="" href="images/gallery/puppy_bowl.jpg">
-                        <img class="img-circle img-responsive" src="images/gallery/puppy_bowl_thumb.jpg">
-                    </a>
-                </div>
-            </div>
-
-        </div>
-        <!-- === end of section 5 === -->
-
-        <!-- === start of contact form === -->
+    <!-- === start of section 4 === -->
+    <div id="sec_4">
         <div class="row">
 
+            <h1>TRAINING</h1>
 
-            <div id="contact_form" class="col-sm-8 col-sm-offset-3">
-                <h1 class="center-block">CONTACT US <p>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <p>After joining Gateway HRC and Retrievers Unlimited HRC, I have found myself surrounded by a group of some of the best trainers in the Midwest. We work with dogs in show conformation,obedience training and field training.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="grid_wrapper row">
+            <div class="row">
+                <div><img class="img-responsive center-block" src="images/ezraBanner.png" style="margin-bottom:2em;" /></div>
+            </div>
+            <div class="grid col-xs-12 col-md-10 col-lg-6 col-md-offset-1 col-lg-offset-3">
+                <img id="labs" class="img-responsive border" src="images/ducks.jpg" />
+            </div>
+            <div class="grid col-xs-6 col-md-5 col-lg-3 col-md-offset-1 col-lg-offset-3">
+                <img id="ribbons" class="img-responsive" src="images/sammy2.jpg" />
+            </div>
+            <div class="grid col-xs-6 col-md-5 col-lg-3">
+                <img class="img-responsive" src="images/ezra2.jpg" />
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- === end of section 4 === -->
+
+    <!-- === start of section 5 GALLERY === -->
+    <div id="sec_5">
+
+        <h1>PHOTO GALLERY</h1>
+
+        <!-- === start of row 1 === -->
+        <div class="row">
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Ezra_Field.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Ezra_Field.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Ruthie_Field_Thumb.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Ruthie_Field_Thumb.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Bullet_2016.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Bullet_2016.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Eddie2.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Eddie2.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Eddie3.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Eddie3.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther2.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Esther2.jpg">
+                </a>
+            </div>
+
+        </div>
+        <!--        end of row 1 -->
+
+        <!--            start of row 2 col-xs-4-->
+        <div class="row">
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther3.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Esther3.jpg">
+                </a>
+            </div>
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther4.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Esther4.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/Esther5.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/Esther5.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/bumper_dog.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/bumper_dog.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/two_dogs.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/two_dogs.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/puppy_bumper.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/puppy_bumper.jpg">
+                </a>
+            </div>
+        </div>
+        <!--            end of row 2 col-xs-4-->
+
+        <!--            start of row 3-->
+        <div class="row">
+            <div class="col-md-2 col-xs-4">
+                <a class="." data-lightbox="puppy" data-title="" href="images/gallery/choco_puppy.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/choco_puppy.jpg">
+                </a>
+            </div>
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/sleeping_dogs.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/sleeping_dogs.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/blind_dog.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/blind_dog_thumb.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/puppys.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/puppys_thumb.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/twins.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/twins.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/bathtime.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/bathtime_thumb.jpg">
+                </a>
+            </div>
+        </div>
+
+        <!--            end of row 3-->
+
+        <!--            start of row 4-->
+        <div class="row">
+            <div class="col-md-2 col-xs-4">
+                <a class="." data-lightbox="puppy" data-title="" href="images/gallery/gigi_bumper.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/gigi_bumper.jpg">
+                </a>
+            </div>
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/3dogs.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/3dogs.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/xmas_pups.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/xmas_pups_thumb.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/water_gun.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/water_gun.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/lake_retrieve.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/lake_retrieve_thumb.jpg">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-xs-4">
+                <a class="" data-lightbox="puppy" data-title="" href="images/gallery/puppy_bowl.jpg">
+                    <img class="img-circle img-responsive" src="images/gallery/puppy_bowl_thumb.jpg">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!-- === end of section 5 === -->
+
+    <!-- === start of contact form === -->
+    <div class="row">
+
+
+        <div id="contact_form" class="col-sm-8 col-sm-offset-3">
+            <h1 class="center-block">CONTACT US <p>
                 (314) 324-2486
             </p></h1>
 
 
-                <div class="row form-group">
-                    <div class="col-xs-3">
-                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required="">
-                    </div>
-                    <div class="col-xs-4">
-                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required="">
-                    </div>
+            <div class="row form-group">
+                <div class="col-xs-3">
+                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required="">
                 </div>
-                <div class="row form-group">
-                    <div class="col-xs-5">
-                        <input type="email" class="form-control" name="email" placeholder="Email" required="">
-                    </div>
-                    <div class="col-xs-5">
-                        <input type="email" class="form-control" name="phone" placeholder="Phone" required="">
-                    </div>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required="">
                 </div>
+            </div>
+            <div class="row form-group">
+                <div class="col-xs-5">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                </div>
+                <div class="col-xs-5">
+                    <input type="email" class="form-control" name="phone" placeholder="Phone" required="">
+                </div>
+            </div>
 
-                <div class="row form-group">
-                    <div class="col-xs-10">
-                        <button class="btn btn-default pull-right">Contact Us</button>
-                    </div>
+            <div class="row form-group">
+                <div class="col-xs-10">
+                    <button class="btn btn-default pull-right">Contact Us</button>
                 </div>
             </div>
         </div>
-        <!-- === end of contact form  === -->
+    </div>
+    <!-- === end of contact form  === -->
 
-        <!-- === start of footer === -->
-        <div class="row">
-            <div id="footer" class="bottom-align-text">
-                <p class="text-center">&copy; 2017 Rainforest Coastal Labs, St. Louis MO</p>
-            </div>
+    <!-- === start of footer === -->
+    <div class="row">
+        <div id="footer" class="bottom-align-text">
+            <p class="text-center">&copy; 2017 Rainforest Coastal Labs, St. Louis MO</p>
         </div>
-        <!-- === end of footer === -->
+    </div>
+    <!-- === end of footer === -->
 
 
     </div>

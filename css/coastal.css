@@ -38,6 +38,12 @@ span.icon-bar {
   #mainNavBar i {
     color: white;
     margin: 0.3em; }
+  #mainNavBar button#checkout_button {
+    border: none;
+    background-color: none;
+    background: transparent; }
+  #mainNavBar #cart_link {
+    background: transparent; }
 
 .navbar-brand img {
   margin-left: 2em; }
