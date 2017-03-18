@@ -440,6 +440,11 @@ span.icon-bar {
         color      : #808080;
     }
 
+    button#contact_button {
+        color           : $blue;
+        background-color: green;
+    }
+
     label {
         font-family: $para-text;
     }

@@ -269,6 +269,9 @@ span.icon-bar {
   #contact_form button {
     font-family: "Open Sans Condensed", sans-serif;
     color: #808080; }
+  #contact_form button#contact_button {
+    color: #4D7AA1;
+    background-color: green; }
   #contact_form label {
     font-family: "Open Sans Condensed", sans-serif; }
 
