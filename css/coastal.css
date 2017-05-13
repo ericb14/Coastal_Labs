@@ -229,7 +229,8 @@ span.icon-bar {
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 1.5em;
     line-height: 1.3em;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-bottom: 1em; }
   #sec_4 h1 {
     font-family: "Fjalla One", sans-serif;
     color: #FFFFFF;
@@ -253,26 +254,13 @@ span.icon-bar {
   #sec_5 img {
     margin: 0.5em; }
 
-#contact_form {
-  margin-left: 25%;
-  margin-top: 2em;
-  color: #4D7AA1; }
-  #contact_form h1 {
-    font-family: "Fjalla One", sans-serif;
-    color: #4D7AA1; }
-  #contact_form p {
-    font-family: "Open Sans Condensed", sans-serif;
-    font-size: 0.5em; }
-  #contact_form input[placeholder][name] {
-    font-family: "Open Sans Condensed", sans-serif;
-    color: #4D7AA1; }
-  #contact_form button {
-    font-family: "Open Sans Condensed", sans-serif;
-    color: #808080; }
-  #contact_form button#contact_button {
-    color: #4d7aa1; }
-  #contact_form label {
-    font-family: "Open Sans Condensed", sans-serif; }
+#contact_sec p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #4D7AA1;
+  font-size: 1.2em; }
+
+#contact_sec i {
+  margin-right: 0.2em; }
 
 #footer p {
   color: #4D7AA1;
@@ -304,3 +292,18 @@ span.icon-bar {
   .modal-body h4 {
     font-family: "Open Sans Condensed", sans-serif;
     color: #808080; }
+
+@media (min-width: 991px) {
+  #sec_4 #merit_pic {
+    top: -115px;
+    position: relative; } }
+
+@media (min-width: 768px) {
+  #merit_pic {
+    margin: auto; } }
+
+@media (min-width: 576px) {
+  #merit_pic {
+    height: 25%;
+    top: -10px;
+    margin: auto auto 10px; } }

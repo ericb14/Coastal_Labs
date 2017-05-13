@@ -365,15 +365,18 @@ span.icon-bar {
     margin          : 0;
     background-color: $gray;
 
+    #merit_pic {}
+
     .grid {
         padding: 0;
     }
 
     p {
-        font-family: $para-text;
-        font-size  : 1.5em;
-        line-height: 1.3em;
-        color      : $white;
+        font-family  : $para-text;
+        font-size    : 1.5em;
+        line-height  : 1.3em;
+        color        : $white;
+        margin-bottom: 1em;
     }
 
     h1 {
@@ -415,39 +418,50 @@ span.icon-bar {
 // === section 5 style end ===
 // === start of contact_form ===
 
-#contact_form {
-    margin-left: 25%;
-    margin-top : 2em;
-    color      : $blue;
-
-    h1 {
-        font-family: $header;
-        color      : $blue;
-    }
-
+#contact_sec {
     p {
         font-family: $para-text;
-        font-size  : 0.5em;
-    }
-
-    input[placeholder][name] {
-        font-family: $para-text;
         color      : $blue;
+        font-size  : 1.2em;
     }
 
-    button {
-        font-family: $para-text;
-        color      : #808080;
-    }
-
-    button#contact_button {
-        color: #4d7aa1;
-    }
-
-    label {
-        font-family: $para-text;
+    i {
+        margin-right: 0.2em;
     }
 }
+// #contact_form {
+//     margin-left: 25%;
+//     margin-top : 2em;
+//     color      : $blue;
+//
+//     h1 {
+//         font-family: $header;
+//         color      : $blue;
+//     }
+//
+//     p {
+//         font-family: $para-text;
+//         font-size  : 0.5em;
+//     }
+//
+//     input[placeholder][name] {
+//         font-family: $para-text;
+//         color      : $blue;
+//     }
+//
+//     button {
+//         font-family: $para-text;
+//         color      : #808080;
+//     }
+//
+//     button#contact_button {
+//         color: #4d7aa1;
+//     }
+//
+//     label {
+//         font-family: $para-text;
+//     }
+// }
 // === end of contact_form ===
 
 #footer {
@@ -501,3 +515,25 @@ span.icon-bar {
     }
 }
 // ============== END OF MODAL STYLE ==============
+// === queries ===
+@media (min-width: 991px) {
+    #sec_4 {
+        #merit_pic {
+            // border  : solid 4px green;
+            top     : -115px;
+            position: relative;
+        }
+    }
+}
+@media (min-width: 768px) {
+    #merit_pic {
+        margin: auto;
+    }
+}
+@media (min-width: 576px) {
+    #merit_pic {
+        height: 25%;
+        top   : -10px;
+        margin: auto auto 10px;
+    }
+}
